@@ -1,0 +1,62 @@
+{
+  "project_info": {
+    "project_number": "848470984777",
+    "firebase_url": "https://dietapp-cd385.firebaseio.com",
+    "project_id": "dietapp-cd385",
+    "storage_bucket": "dietapp-cd385.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:848470984777:android:fc40af64c883747e",
+        "android_client_info": {
+          "package_name": "com.jmcc.dietapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "848470984777-a8fi9umn0h9mveru5p86lrmjollj1ml1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.jmcc.dietapp",
+            "certificate_hash": "6712f570351bcb6aed67dcb35e84d656e58361d4"
+          }
+        },
+        {
+          "client_id": "848470984777-ul8esl6eno2t2jdc45bf0eskbg9tqf9p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAmPtkNyxKvc2JEzj2QhAPwqv-UpkvtOY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "848470984777-ul8esl6eno2t2jdc45bf0eskbg9tqf9p.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "848470984777-j3p05euiefa662rbm57u7brdlpq6p0ci.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.jmcc.dietapp"
+              }
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
