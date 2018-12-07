@@ -1,6 +1,7 @@
 C:\Users\lvc\Documents\Visual Studio 2017\Projects\D_App_Multi\D_App_Multi\D_App_Multi\bin\Debug\netstandard2.0\D_App_Multi.deps.json
 C:\Users\lvc\Documents\Visual Studio 2017\Projects\D_App_Multi\D_App_Multi\D_App_Multi\bin\Debug\netstandard2.0\D_App_Multi.dll
 C:\Users\lvc\Documents\Visual Studio 2017\Projects\D_App_Multi\D_App_Multi\D_App_Multi\bin\Debug\netstandard2.0\D_App_Multi.pdb
+C:\Users\lvc\Documents\Visual Studio 2017\Projects\D_App_Multi\D_App_Multi\D_App_Multi\obj\Debug\netstandard2.0\D_App_Multi.csprojAssemblyReference.cache
 C:\Users\lvc\Documents\Visual Studio 2017\Projects\D_App_Multi\D_App_Multi\D_App_Multi\obj\Debug\netstandard2.0\App.xaml.g.cs
 C:\Users\lvc\Documents\Visual Studio 2017\Projects\D_App_Multi\D_App_Multi\D_App_Multi\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
 C:\Users\lvc\Documents\Visual Studio 2017\Projects\D_App_Multi\D_App_Multi\D_App_Multi\obj\Debug\netstandard2.0\View\Login.xaml.g.cs
