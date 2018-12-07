@@ -1,1 +1,0 @@
-C:\Users\lvc\Documents\Visual Studio 2017\Projects\D_App_Multi\D_App_Multi\D_App_Multi.UWP\D_App_Multi.UWP.csproj;x86
