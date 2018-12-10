@@ -31,13 +31,17 @@
     <AppXManifest Include="C:\Users\lvc\Documents\Visual Studio 2017\Projects\D_App_Multi\D_App_Multi\D_App_Multi.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-12-06T17:27:04.749</Modified>
+      <Modified>2018-12-08T01:04:35.537</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\lvc\Documents\Visual Studio 2017\Projects\D_App_Multi\D_App_Multi\D_App_Multi.UWP\bin\x86\Debug\D_App_Multi.UWP.exe">
       <PackagePath>entrypoint\D_App_Multi.UWP.exe</PackagePath>
-      <Modified>2018-12-06T17:27:04.042</Modified>
+      <Modified>2018-12-08T01:04:33.581</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lvc\.nuget\packages\newtonsoft.json\12.0.1\lib\netstandard2.0\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+      <Modified>2018-11-28T00:07:34.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.1.9\runtimes\win10-x86\nativeassets\uap10.0.15138\clrcompression.dll">
       <PackagePath>clrcompression.dll</PackagePath>
@@ -695,25 +699,25 @@
       <PackagePath>netstandard.dll</PackagePath>
       <Modified>2018-10-04T18:37:40.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\lvc\.nuget\packages\xamarin.forms\3.4.0.1008975\lib\uap10.0\Xamarin.Forms.Core.dll">
+    <AppxPackagedFile Include="C:\Users\lvc\.nuget\packages\xamarin.forms\3.3.0.967583\lib\uap10.0\Xamarin.Forms.Core.dll">
       <PackagePath>Xamarin.Forms.Core.dll</PackagePath>
-      <Modified>2018-11-14T02:15:30.000</Modified>
+      <Modified>2018-10-30T06:21:48.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\lvc\.nuget\packages\xamarin.forms\3.4.0.1008975\lib\uap10.0\Xamarin.Forms.Platform.UAP.dll">
+    <AppxPackagedFile Include="C:\Users\lvc\.nuget\packages\xamarin.forms\3.3.0.967583\lib\uap10.0\Xamarin.Forms.Platform.UAP.dll">
       <PackagePath>Xamarin.Forms.Platform.UAP.dll</PackagePath>
-      <Modified>2018-11-14T02:15:32.000</Modified>
+      <Modified>2018-10-30T06:21:50.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\lvc\.nuget\packages\xamarin.forms\3.4.0.1008975\lib\uap10.0\Xamarin.Forms.Platform.dll">
+    <AppxPackagedFile Include="C:\Users\lvc\.nuget\packages\xamarin.forms\3.3.0.967583\lib\uap10.0\Xamarin.Forms.Platform.dll">
       <PackagePath>Xamarin.Forms.Platform.dll</PackagePath>
-      <Modified>2018-11-14T02:15:32.000</Modified>
+      <Modified>2018-10-30T06:21:50.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\lvc\.nuget\packages\xamarin.forms\3.4.0.1008975\lib\uap10.0\Xamarin.Forms.Xaml.dll">
+    <AppxPackagedFile Include="C:\Users\lvc\.nuget\packages\xamarin.forms\3.3.0.967583\lib\uap10.0\Xamarin.Forms.Xaml.dll">
       <PackagePath>Xamarin.Forms.Xaml.dll</PackagePath>
-      <Modified>2018-11-14T02:15:22.000</Modified>
+      <Modified>2018-10-30T06:21:40.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lvc\Documents\Visual Studio 2017\Projects\D_App_Multi\D_App_Multi\D_App_Multi\bin\Debug\netstandard2.0\D_App_Multi.dll">
       <PackagePath>D_App_Multi.dll</PackagePath>
-      <Modified>2018-12-06T17:26:58.053</Modified>
+      <Modified>2018-12-08T01:04:24.527</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lvc\Documents\Visual Studio 2017\Projects\D_App_Multi\D_App_Multi\D_App_Multi.UWP\Assets\LargeTile.scale-100.png">
       <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
@@ -856,32 +860,32 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lvc\Documents\Visual Studio 2017\Projects\D_App_Multi\D_App_Multi\D_App_Multi.UWP\bin\x86\Debug\D_App_Multi.UWP.xr.xml">
       <PackagePath>D_App_Multi.UWP.xr.xml</PackagePath>
-      <Modified>2018-12-06T17:21:12.664</Modified>
+      <Modified>2018-12-08T00:23:22.848</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lvc\Documents\Visual Studio 2017\Projects\D_App_Multi\D_App_Multi\D_App_Multi.UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2018-12-06T17:27:03.798</Modified>
+      <Modified>2018-12-08T01:04:33.247</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lvc\Documents\Visual Studio 2017\Projects\D_App_Multi\D_App_Multi\D_App_Multi.UWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2018-12-06T17:27:03.798</Modified>
+      <Modified>2018-12-08T01:04:33.247</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.16299.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
       <Modified>2017-09-28T23:28:16.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\lvc\.nuget\packages\xamarin.forms\3.4.0.1008975\lib\uap10.0\Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.xr.xml">
+    <AppxPackagedFile Include="C:\Users\lvc\.nuget\packages\xamarin.forms\3.3.0.967583\lib\uap10.0\Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.xr.xml">
       <PackagePath>Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.xr.xml</PackagePath>
-      <Modified>2018-11-14T02:15:20.000</Modified>
+      <Modified>2018-10-30T06:21:38.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lvc\Documents\Visual Studio 2017\Projects\D_App_Multi\D_App_Multi\D_App_Multi.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-12-06T17:21:19.047</Modified>
+      <Modified>2018-12-08T01:04:34.683</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lvc\Documents\Visual Studio 2017\Projects\D_App_Multi\D_App_Multi\D_App_Multi.UWP\bin\x86\Debug\Core\D_App_Multi.UWP.exe">
       <PackagePath>D_App_Multi.UWP.exe</PackagePath>
-      <Modified>2018-12-06T17:27:04.742</Modified>
+      <Modified>2018-12-08T01:04:35.528</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

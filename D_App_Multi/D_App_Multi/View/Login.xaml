@@ -5,9 +5,9 @@
     <ContentPage.Content>
         <StackLayout>
             <Label Text="Correo"/>
-            <Entry Text="{Binding Nombre}"/>
+            <Entry Text="{Binding usr}"/>
             <Label Text="Contrasena"/>
-            <Entry Text="{Binding Contrasena}" IsPassword="True"/>
+            <Entry Text="{Binding pass}" IsPassword="True"/>
             <Button Text="Guardar" Command="{Binding IniciarSessionCommand}"/>
         </StackLayout>
     </ContentPage.Content>

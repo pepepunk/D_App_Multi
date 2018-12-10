@@ -6,7 +6,6 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Android.OS;
-using Firebase;
 
 namespace D_App_Multi.Droid
 {
@@ -20,7 +19,6 @@ namespace D_App_Multi.Droid
 
             base.OnCreate(savedInstanceState);
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
-            FirebaseApp.InitializeApp(Application.Context);
             LoadApplication(new App());
         }
     }

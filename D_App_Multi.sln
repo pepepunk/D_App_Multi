@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D_App_Multi.iOS", "D_App_Mu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D_App_Multi.UWP", "D_App_Multi\D_App_Multi.UWP\D_App_Multi.UWP.csproj", "{23776163-FCF7-49AF-9C3B-44FE482729F7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D_App_Multi", "D_App_Multi\D_App_Multi\D_App_Multi.csproj", "{6D82B818-3063-40CC-BA3F-A37DAA82D586}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "D_App_Multi", "D_App_Multi\D_App_Multi\D_App_Multi.csproj", "{6D82B818-3063-40CC-BA3F-A37DAA82D586}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using D_App_Multi.ViewModel;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -15,6 +16,7 @@ namespace D_App_Multi.View
         public Login()
         {
             InitializeComponent();
+            BindingContext = new LoginViewModel(this.Navigation); ;
         }
     }
 }
