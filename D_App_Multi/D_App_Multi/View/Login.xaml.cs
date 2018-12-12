@@ -1,4 +1,5 @@
-﻿using D_App_Multi.ViewModel;
+﻿using D_App_Multi.Helper;
+using D_App_Multi.ViewModel;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,10 +14,10 @@ namespace D_App_Multi.View
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class Login : ContentPage
     {
-        public Login()
+        public Login(ILoginManager iml)
         {
             InitializeComponent();
-            BindingContext = new LoginViewModel(this.Navigation); ;
+            BindingContext = new LoginViewModel(iml);
         }
     }
 }

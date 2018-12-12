@@ -1,42 +1,52 @@
-﻿using D_App_Multi.Model;
+﻿using D_App_Multi.Helper;
+using D_App_Multi.Model;
 using D_App_Multi.Service;
-using D_App_Multi.View;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
 
 namespace D_App_Multi.ViewModel
 {
-    public class LoginViewModel
+    public class LoginViewModel:PropertyChangedService
     {
-        public string usr { get; set; }
-        public string pass { get; set; }
-        public bool isBusy { get; set; }
-        public Command IniciarSessionCommand { get; set; }
-        UsuarioService usuarioService = new UsuarioService();
-        private INavigation _navigation;
-        public LoginViewModel(INavigation navigation)
+        public string email { get; set; }
+        public string password { get; set; }
+        
+        public Command IniciarSesionCommand { get; set; }
+
+        FirebaseConfig config = new FirebaseConfig();
+        ILoginManager iml = null;
+        public LoginViewModel(ILoginManager ilm)
         {
-            IniciarSessionCommand = new Command(async () => await Loggin(), () => !isBusy);
-            _navigation = navigation;
+            iml = ilm;
+            IniciarSesionCommand = new Command(async () => await Login(), () => !IsBusy);
         }
 
-        private async Task Loggin()
+        private async Task Login()
         {
-            isBusy = true;
-            var usuario = usuarioService.GetUserByUserPasswordAsync(usr, pass);
-            await Task.Delay(2000);
-            isBusy = false;
-            if (usuario!=null)
+            if (string.IsNullOrEmpty(email))
             {
-                await _navigation.PushAsync(new LoggCorrect());
+                await App.Current.MainPage.DisplayAlert("Alerta", "Email requerido", "Ok");
+            }
+            else if(string.IsNullOrEmpty(password)){
+                await App.Current.MainPage.DisplayAlert("Alerta", "Contraseña requerida", "Ok");
             }
             else
             {
-                await _navigation.PushAsync(new LoggFail());
+                IsBusy = true;
+                var _login = await config.Login(email, password);
+
+                App.Current.Properties["IsLoggedIn"] = _login;
+                if (_login)
+                {
+                    iml.ShowMainPage();
+                }
+                IsBusy = false;
             }
+            
         }
     }
 }

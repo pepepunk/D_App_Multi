@@ -2,13 +2,29 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="D_App_Multi.View.Login">
-    <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Correo"/>
-            <Entry Text="{Binding usr}"/>
-            <Label Text="Contrasena"/>
-            <Entry Text="{Binding pass}" IsPassword="True"/>
-            <Button Text="Guardar" Command="{Binding IniciarSessionCommand}"/>
+    <Grid x:Name="LayoutRoot" BackgroundColor="White">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        
+
+        <StackLayout Grid.Row="1" Orientation="Vertical" Margin="0,40,0,10">
+            <StackLayout Orientation="Vertical" VerticalOptions="Center" Margin="0,5,0,0" BackgroundColor="White" Opacity="1">
+                <Image Source="Logo.png" Aspect="AspectFit" Margin="10" HeightRequest="200" WidthRequest="200"  VerticalOptions="Center" HorizontalOptions="Center"/>
+            </StackLayout>
         </StackLayout>
-    </ContentPage.Content>
+
+        <StackLayout Grid.Row="2" Orientation="Vertical" BackgroundColor="White" Opacity="0.8">
+            <StackLayout Orientation="Vertical" Margin="40,20">
+                <Entry Text="{Binding email}" x:Name="EmailEntry" TextColor="Black" Placeholder="Email" PlaceholderColor="Gray" Keyboard="Email" FontSize="18" HorizontalTextAlignment="Start"/>
+                <Entry Text="{Binding password}" x:Name="PasswordEntry" TextColor="Black" Placeholder="Password" PlaceholderColor="Gray" IsPassword="True" FontSize="18" HorizontalTextAlignment="Start"/>
+                <Button Margin="0,10" Text="Login" BackgroundColor="#0072BD" TextColor="White" FontSize="18" Command="{Binding IniciarSesionCommand}"/>
+                <ActivityIndicator IsRunning="{Binding IsBusy}" Grid.RowSpan="3" Color="Red" VerticalOptions="Center" HorizontalOptions="Center" IsVisible="True" IsEnabled="True"/>
+            </StackLayout>
+        </StackLayout>
+        
+    </Grid>
 </ContentPage>
